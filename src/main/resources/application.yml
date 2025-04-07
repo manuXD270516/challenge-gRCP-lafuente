@@ -1,0 +1,16 @@
+grpc:
+  server:
+    port: 9090
+    security-enabled: false
+
+logging:
+  level:
+    root: INFO
+    io.grpc.netty: WARN
+    io.grpc.netty.shaded: WARN
+user:
+  activity:
+    delay-ms: 3000
+
+custom:
+  test: "✔ YAML cargado correctamente"

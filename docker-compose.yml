@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  grpc-app:
+    build: .
+    ports:
+      - "9090:9090"
+    environment:
+      - SPRING_PROFILES_ACTIVE=default
